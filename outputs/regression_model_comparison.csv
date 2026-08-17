@@ -1,0 +1,5 @@
+model,MAE,RMSE,R2,CV_R2_mean,tuned
+Linear Regression,5.283,6.555,0.707,0.666,False
+Gradient Boosting,5.592,7.025,0.664,0.608,True
+Random Forest,5.923,7.53,0.613,0.567,True
+Decision Tree,7.364,9.411,0.396,0.39,True

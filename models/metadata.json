@@ -1,0 +1,76 @@
+{
+  "numeric_features": [
+    "study_hours_per_week",
+    "attendance_percent",
+    "previous_score",
+    "sleep_hours",
+    "absences"
+  ],
+  "categorical_features": [
+    "parental_education",
+    "internet_access",
+    "extracurricular_activities",
+    "part_time_job",
+    "study_method"
+  ],
+  "categorical_options": {
+    "parental_education": [
+      "Bachelors",
+      "High School",
+      "Masters",
+      "PhD"
+    ],
+    "internet_access": [
+      "No",
+      "Yes"
+    ],
+    "extracurricular_activities": [
+      "No",
+      "Yes"
+    ],
+    "part_time_job": [
+      "No",
+      "Yes"
+    ],
+    "study_method": [
+      "Group Study",
+      "Online Courses",
+      "Self-study",
+      "Tutoring"
+    ]
+  },
+  "category_order": [
+    "Poor",
+    "Below Average",
+    "Average",
+    "Good",
+    "Excellent"
+  ],
+  "best_regressor": "Linear Regression",
+  "best_regressor_r2": 0.707,
+  "best_classifier": "Random Forest",
+  "best_classifier_f1": 0.945,
+  "category_classifier_accuracy": 0.604,
+  "dataset_stats": {
+    "study_hours_per_week": {
+      "mean": 12.2,
+      "std": 4.91
+    },
+    "attendance_percent": {
+      "mean": 80.06,
+      "std": 11.31
+    },
+    "previous_score": {
+      "mean": 65.2,
+      "std": 15.2
+    },
+    "sleep_hours": {
+      "mean": 6.62,
+      "std": 1.27
+    },
+    "absences": {
+      "mean": 5.94,
+      "std": 2.35
+    }
+  }
+}
